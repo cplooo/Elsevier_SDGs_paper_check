@@ -137,7 +137,7 @@ def replace_quoted_content(string):
 
 st.title("Elsevier SDGs 論文 收錄查詢系統")
 
-SDGs_choice = st.text_input('輸入您要查詢的 SDGS 項目編號(整數)', '17')
+SDGs_choice = st.text_input('輸入您要查詢的 SDGS 項目編號(整數 1-17)', '17')
 title       = st.text_input('輸入您的論文 title')
 abstract    = st.text_input('輸入您的論文 abstract')
 keywords    = st.text_input('輸入您的論文 keywords')
