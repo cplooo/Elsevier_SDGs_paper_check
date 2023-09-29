@@ -130,7 +130,7 @@ def replace_quoted_content(string):
 
 
 
-# SDGs_choice = input('輸入您要查詢的 SDGS 項目編號(整數): ')
+# SDGs_choice = input('輸入您要查詢的 SDGS 項目編號(整數 1-17): ')
 # title       = input('輸入您的論文 title: ')
 # abstract    = input('輸入您的論文 abstract: ')
 # keywords    = input('輸入您的論文 keywords: ')
