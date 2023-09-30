@@ -3164,9 +3164,9 @@ if SDGs_choice == '17':
     
     
     if cond1_final or cond2_final or cond3_final or cond6_final or cond7_final or cond9_final or cond10_final or cond12_final:
-        st.write(f'查核結果: 恭喜您 ! 你的論文被收錄在 Elsevier SDGs {SDGs_choice}.')
+        st.write(f'查核結果: 恭喜您 ! 你的論文可以被收錄在 Elsevier SDGs {SDGs_choice}.')
     else:
-        st.write(f'查核結果: 很遺憾 ! 你的論文沒有被收錄在 Elsevier SDGs {SDGs_choice}.')
+        st.write(f'查核結果: 很遺憾 ! 你的論文無法被收錄在 Elsevier SDGs {SDGs_choice}.')
 
     with st.expander(f"你的論文中屬於 SDGs {SDGs_choice} 的關鍵字如下:"):
         # key_terms_noAsterisk = remove_star_from_list(key_terms)
