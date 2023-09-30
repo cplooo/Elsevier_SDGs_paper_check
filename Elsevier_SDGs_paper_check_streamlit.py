@@ -3181,6 +3181,6 @@ if SDGs_choice == '17':
         
 
 
-    with st.expander(f"SDGs {SDGs_choice} 重要關鍵字, 添加這些關鍵字於 title, abstract, keywords 將有助於論文被收錄於 SDGs {SDGs_choice}. 完整收錄條件如下連結 https://tinyurl.com/26xxakca."):
+    with st.expander(f"SDGs {SDGs_choice} 重要關鍵字列表, 添加這些關鍵字於 title, abstract, keywords 將有助於論文被收錄於 SDGs {SDGs_choice}. 完整收錄條件如下連結 https://tinyurl.com/26xxakca."):
         #st.title("SDGs 17 關鍵字")
         st.write(key_terms)
